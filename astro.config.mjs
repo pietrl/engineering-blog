@@ -11,6 +11,7 @@ import cloudflare from '@astrojs/cloudflare';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://engineering-blog.contact-lpietro.workers.dev/',
   integrations: [mdx(), partytown(), sitemap()],
   adapter: cloudflare()
 });
